@@ -2,7 +2,7 @@
   "name": "immutablejsexploration",
   "version": "0.0.0",
   "private": true,
-  "description": "Gaining some familiarity with Immutable",
+  "description": "Gaining some familiarity with immutable-js",
   "main": "index.js",
   "scripts": {
     "test": "mocha"
