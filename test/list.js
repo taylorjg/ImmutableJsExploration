@@ -56,6 +56,8 @@ describe('List', function () {
 
     it('update', function () {
         const list1 = List([1, 2, 3]);
+        const list2 = list1.update(1, x => x * x);
+        assert.equal(list2, List([1, 4, 3]));
     });
 
     it('merge list and list', function () {
